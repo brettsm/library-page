@@ -1,0 +1,83 @@
+body {
+    background-color: lightcoral;
+}
+.card {
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: lightpink;
+}
+.card h2 {
+    margin: 0 0 8px 0;
+    font-size: 1.2em;
+}
+.card p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.card-remove-button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+
+}
+
+.new-book-button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font: inherit;
+    font-weight: bolder;
+
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px; /* Location of the box */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 5% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-read-button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font: inherit;
+    font-weight: bolder;
+    margin-left: 10px;
+}
