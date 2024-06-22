@@ -111,8 +111,8 @@ document.getElementById('addBookForm').addEventListener('submit', function(event
 
 const myLibrary = [];
 
-const gg = new Book('Great', 'Obama');
-const ff = new Book('Awful', 'Trump');
+const gg = new Book('Great', 'Someone');
+const ff = new Book('Awful', 'Else');
 
 addBookToLibrary(gg);
 addBookToLibrary(ff);
